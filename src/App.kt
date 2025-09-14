@@ -45,8 +45,23 @@ fun main(){
         println("$n x $multin = $res")
     }*/
     //Задание 6
-    val mov = listOf("Fight Club", "The Matrix", "Interstellar", "Forrest Gump", "Gladiator")
+    /*val mov = listOf("Fight Club", "The Matrix", "Interstellar", "Forrest Gump", "Gladiator")
     for (mo in mov) {
         println("$mo - ${mo.length} characters")
+    }*/
+    //Задание 7
+    print("Введите ваше имя: ")
+    val name= readln()
+    print("Введите ваш возраст: ")
+    val age= readln().toInt()
+    print("Введите ваш любимый цвет: ")
+    val color= readln()
+    println("Привет, $name! Тебе $age ${letGod(age)}, и ты любишь $color цвет")
+}
+fun letGod(age: Int): String{
+    return when{
+        age % 10 == 1 && age % 100 != 11 -> "год"
+        age % 10 in 2..4 && age % 100 !in 12..14 -> "года"
+        else -> "лет"
     }
 }
