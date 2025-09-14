@@ -40,8 +40,8 @@ fun main(){
     //Задание 5
     val n = 5
     repeat(10) { index ->
-        val multi = index + 1
-        val res = n * multi
-        println("$n x $multi = $res")
+        val multin = index + 1
+        val res = n * multin
+        println("$n x $multin = $res")
     }
 }
