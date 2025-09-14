@@ -38,10 +38,15 @@ fun main(){
     }
     println("'$char' → $c")*/
     //Задание 5
-    val n = 5
+    /*val n = 5
     repeat(10) { index ->
         val multin = index + 1
         val res = n * multin
         println("$n x $multin = $res")
+    }*/
+    //Задание 6
+    val mov = listOf("Fight Club", "The Matrix", "Interstellar", "Forrest Gump", "Gladiator")
+    for (mo in mov) {
+        println("$mo - ${mo.length} characters")
     }
 }
