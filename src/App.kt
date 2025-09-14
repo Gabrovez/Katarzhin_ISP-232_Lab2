@@ -20,11 +20,28 @@ fun main(){
         println("Вы взрослый")
     }*/
     //Задание 3
-    print("Введите число от 1 до 100: ")
+    /*print("Введите число от 1 до 100: ")
     val n = readln().toInt()
     if (n in 10..50) {
         println("Число $n входит в диапазон от 10 до 50 включительно")
     } else {
         println("Число $n не входит в диапазон от 10 до 50 включительно")
+    }*/
+    //Задание 4
+    /*print("Введите один символ: ")
+    val char = readln()[0]
+    val c = when (char) {
+        in '0'..'9' -> "цифра"
+        in 'a'..'z',in 'A'..'Z' -> "Буква латинского алфавита"
+        ' ' -> "пробел"
+        else -> "спецсимвол"
+    }
+    println("'$char' → $c")*/
+    //Задание 5
+    val n = 5
+    repeat(10) { index ->
+        val multi = index + 1
+        val res = n * multi
+        println("$n x $multi = $res")
     }
 }
