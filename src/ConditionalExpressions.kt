@@ -17,5 +17,7 @@ fun main(){
     } else{
         println("Число $numb2 больше чем $numb1")
     }
+    val max = if (numb1 > numb2) numb1 else numb2
+    println("Максимальное число - $max")
 
 }
