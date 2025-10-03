@@ -8,7 +8,7 @@ fun main(){
     } else {
         println("Доступ запрещен!")
     }*/
-    print("Введите первое число: ")
+    /*print("Введите первое число: ")
     val numb1 = readln().toInt()
     print("Введите второе число: ")
     val numb2 = readln().toInt()
@@ -21,6 +21,20 @@ fun main(){
     println("Максимальное число - $max")
     val age = readln().toInt()
     val status = if (age >= 18) "Взрослый" else "Ребёнок"
-    println(status)
+    println(status)*/
+    //magic shield
+    print("Введите урон: ")
+    val damage = readln().toInt()
+    print("Щит активен? (введите да или нет): ")
+    val sInput = readln().lowercase()
+    val sActive = sInput == "да"
+    val finalDamage = if (sActive) {
+        damage / 2
+    } else {
+        damage
+    }
+    println("Полученный урон: $finalDamage")
+
+
 
 }
