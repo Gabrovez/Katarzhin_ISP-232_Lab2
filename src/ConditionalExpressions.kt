@@ -19,5 +19,8 @@ fun main(){
     }
     val max = if (numb1 > numb2) numb1 else numb2
     println("Максимальное число - $max")
+    val age = readln().toInt()
+    val status = if (age >= 18) "Взрослый" else "Ребёнок"
+    println(status)
 
 }
