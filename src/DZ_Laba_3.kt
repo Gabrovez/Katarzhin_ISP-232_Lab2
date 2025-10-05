@@ -75,13 +75,21 @@ fun main(){
     }
     println("Сумма от 1 до вашего числа равна: $count")*/
     //Задание 7. Кубик D6
-    var amount = 0
+    /*var amount = 0
     var count = 1
     while (count <= 10){
         count++
         amount += Random.nextInt(1,7)
     }
-    print("Ваш огненный шар 5-го уровня нанёс: $amount")
-
-
+    print("Ваш огненный шар 5-го уровня нанёс: $amount")*/
+    //Задание 8. Слот-машина
+    val d1 = Random.nextInt(0,6)
+    val d2 = Random.nextInt(0,6)
+    val d3 = Random.nextInt(0,6)
+    println ("$d1 $d2 $d3")
+    if(d1 == d2){
+        if(d2 == d3) {
+            println("Джекпот!")
+        }
+    }
 }
