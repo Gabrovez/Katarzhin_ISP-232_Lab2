@@ -50,7 +50,7 @@ fun main(){
    }
     println("Пароль: $res")*/
     //Задание 5. Мини-опроc
-    print("Введите ваше имя: ")
+    /*print("Введите ваше имя: ")
     val na = readln()
     print("Введите ваш возраст: ")
     val age = readln().toInt()
@@ -65,9 +65,15 @@ fun main(){
     println(seas)
     val  r = (Math.random() * otziv.size).toInt()
     val phrase = otziv[r]
-    print(phrase)
-
-
+    print(phrase)*/
+    //Задание 6. Сумма чисел
+    print("Введите число: ")
+    val N = readln().toInt()
+    var count = 0
+    for (i in 1..N){
+        count += i
+    }
+    println("Сумма от 1 до вашего числа равна: $count")
 
 
 }
