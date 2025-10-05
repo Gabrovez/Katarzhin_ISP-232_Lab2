@@ -8,7 +8,7 @@ fun main() {
         }
         println(number)
     }*/
-    println("Напишите что-нибудь(для выхода выхода введите 'выход'):")
+    /*println("Напишите что-нибудь(для выхода выхода введите 'выход'):")
     while (true){
         val input = readLine()
         if (input == "выход"){
@@ -16,5 +16,10 @@ fun main() {
             break
         }
         println("Вы ввели $input")
+    }*/
+    var letter = 'A'
+    while (letter <= 'Z'){
+        print(letter)
+        letter++
     }
 }
