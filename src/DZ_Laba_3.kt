@@ -1,7 +1,7 @@
 import kotlin.random.Random
 fun main(){
     // Задание 1. Угадай число
-    val target = Random.nextInt(1,50)
+    /*val target = Random.nextInt(1,50)
     print("Угадайте число (от 1 до 50): ")
     while(true) {
         print("Введи число: ")
@@ -14,6 +14,16 @@ fun main(){
                 break
             }
         }
+    }*/
+    //Задание 2. Счётчик гласных
+    print("Введите строку: ")
+    val glas = "aeiou"
+    val input =  readln().lowercase()
+    var count = 0
+    for (i in input) {
+        if (i in glas){
+            count++
+        }
     }
-
+    println("В слове $count гласных")
 }
