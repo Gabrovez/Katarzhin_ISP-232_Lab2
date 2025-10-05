@@ -15,11 +15,19 @@ fun main() {
 
         }
     }*/
-    val d1 = Random.nextInt(1,7)
+    /*val d1 = Random.nextInt(1,7)
     val d2 = Random.nextInt(1,7)
     val sum = d1 + d2
     println("Первый кубик: $d1")
     println("Второй кубик: $d2")
-    println("Сумма: $sum")
+    println("Сумма: $sum")*/
+    val d1 = Random.nextDouble(0.0, 10.0)
+    val d2 = Random.nextDouble(0.0, 10.0)
+    val d3 = Random.nextDouble(0.0, 10.0)
+    val avg = (d1 + d2 + d3) / 3
+    println("Числа: $d1, $d2, $d3")
+    println("Среднее: $avg")
+
+
 
 }
