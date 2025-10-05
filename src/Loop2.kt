@@ -22,11 +22,17 @@ fun main() {
         print(letter)
         letter++
     }*/
-    var number: Int
+  /*  var number: Int
     do {
         print("Введите число больше 10: ")
         number = readln().toInt()
     }while (number < 10)
-    println("Вы ввели $number.")
+    println("Вы ввели $number.")*/
+    var password: String?
+    do{
+        print("Введите пароль: ")
+        password = readln()
+    } while (password != "qwerty")
+    print("Доступ разрешён")
 
 }
