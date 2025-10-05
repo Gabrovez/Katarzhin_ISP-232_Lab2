@@ -16,7 +16,7 @@ fun main(){
         }
     }*/
     //Задание 2. Счётчик гласных
-    print("Введите строку: ")
+    /*print("Введите строку: ")
     val glas = "aeiou"
     val input =  readln().lowercase()
     var count = 0
@@ -25,5 +25,12 @@ fun main(){
             count++
         }
     }
-    println("В слове $count гласных")
+    println("В слове $count гласных")*/
+    //Задание 3. Обратный отсчёт
+    print("Введите число: ")
+    var N = readln().toInt()
+    do {
+        println(N)
+        N--
+    }while (N >= 1)
 }
