@@ -83,7 +83,7 @@ fun main(){
     }
     print("Ваш огненный шар 5-го уровня нанёс: $amount")*/
     //Задание 8. Слот-машина
-    val d1 = Random.nextInt(0,6)
+    /*val d1 = Random.nextInt(0,6)
     val d2 = Random.nextInt(0,6)
     val d3 = Random.nextInt(0,6)
     println ("$d1 $d2 $d3")
@@ -91,5 +91,13 @@ fun main(){
         if(d2 == d3) {
             println("Джекпот!")
         }
+    }*/
+    //Задание 9. Банковский счёт
+    var sch = Random.nextInt(100,1001)
+    println(sch)
+    while (sch > 0){
+        sch -= Random.nextInt(10,101)
+        println(sch)
     }
+    //
 }
