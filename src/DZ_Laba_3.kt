@@ -93,11 +93,23 @@ fun main(){
         }
     }*/
     //Задание 9. Банковский счёт
-    var sch = Random.nextInt(100,1001)
+    /*var sch = Random.nextInt(100,1001)
     println(sch)
     while (sch > 0){
         sch -= Random.nextInt(10,101)
         println(sch)
+    }*/
+    //Задание 10. Прогноз погоды
+    val dni = listOf("Понедельник", "Вторник", "Среду", "Четверг", "Пятницу", "Субботу", "Воскресенье")
+    val tem = listOf(Random.nextInt(-10,31), Random.nextInt(-10,31), Random.nextInt(-10,31), Random.nextInt(-10,31), Random.nextInt(-10,31), Random.nextInt(-10,31), Random.nextInt(-10,31),)
+    var c = 0
+    while (c <=6){
+        if (tem[c] < 0){
+            println("В ${dni[c]} температура была ниже нуля.(${tem[c]})")
+
+        }
+        c++
     }
-    //
+
+
 }
