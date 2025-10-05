@@ -34,12 +34,20 @@ fun main() {
         password = readln()
     } while (password != "qwerty")
     print("Доступ разрешён")*/
-    for (i in 1.. 5){
+    /*for (i in 1.. 5){
         println("Шаг $i")
     }
     val fruits = listOf("apple", "banana", "cherry")
     for (fruit in fruits){
         println("Фрукт: $fruit")
+    }*/
+    print("Введите числа через пробел: ")
+    val input = readln()
+    val numbers = input.split(" ")
+    var sum = 0
+    for (number in numbers) {
+        sum += number.toInt()
     }
+    println("Сумма чисел равна: $sum")
 
 }
