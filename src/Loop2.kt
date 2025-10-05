@@ -28,11 +28,18 @@ fun main() {
         number = readln().toInt()
     }while (number < 10)
     println("Вы ввели $number.")*/
-    var password: String?
+    /*var password: String?
     do{
         print("Введите пароль: ")
         password = readln()
     } while (password != "qwerty")
-    print("Доступ разрешён")
+    print("Доступ разрешён")*/
+    for (i in 1.. 5){
+        println("Шаг $i")
+    }
+    val fruits = listOf("apple", "banana", "cherry")
+    for (fruit in fruits){
+        println("Фрукт: $fruit")
+    }
 
 }
