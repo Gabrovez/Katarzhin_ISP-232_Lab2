@@ -67,13 +67,21 @@ fun main(){
     val phrase = otziv[r]
     print(phrase)*/
     //Задание 6. Сумма чисел
-    print("Введите число: ")
+    /*print("Введите число: ")
     val N = readln().toInt()
     var count = 0
     for (i in 1..N){
         count += i
     }
-    println("Сумма от 1 до вашего числа равна: $count")
+    println("Сумма от 1 до вашего числа равна: $count")*/
+    //Задание 7. Кубик D6
+    var amount = 0
+    var count = 1
+    while (count <= 10){
+        count++
+        amount += Random.nextInt(1,7)
+    }
+    print("Ваш огненный шар 5-го уровня нанёс: $amount")
 
 
 }
