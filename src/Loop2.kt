@@ -17,9 +17,16 @@ fun main() {
         }
         println("Вы ввели $input")
     }*/
-    var letter = 'A'
+    /*var letter = 'A'
     while (letter <= 'Z'){
         print(letter)
         letter++
-    }
+    }*/
+    var number: Int
+    do {
+        print("Введите число больше 10: ")
+        number = readln().toInt()
+    }while (number < 10)
+    println("Вы ввели $number.")
+
 }
