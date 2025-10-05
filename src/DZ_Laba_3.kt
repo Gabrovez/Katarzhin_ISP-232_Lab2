@@ -34,7 +34,7 @@ fun main(){
         N--
     }while (N >= 1)*/
     //Задание 4. Генератор пароля
-    val part1 = arrayOf("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "O", "P", "N", "M", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
+    /*val part1 = arrayOf("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "O", "P", "N", "M", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
     val part11 = arrayOf("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "o", "p", "n", "m","q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
     val part2 = arrayOf("0","1", "2", "3", "4", "5", "6", "7", "8", "9")
     val part3 = arrayOf("!", "@", "#", "$", "%", "^", "&", "*", "?", ",", ".", ";", ":", "№")
@@ -48,7 +48,26 @@ fun main(){
            3 ->res += part3[Random.nextInt(part3.size)]
        }
    }
-    println("Пароль: $res")
+    println("Пароль: $res")*/
+    //Задание 5. Мини-опроc
+    print("Введите ваше имя: ")
+    val na = readln()
+    print("Введите ваш возраст: ")
+    val age = readln().toInt()
+    print("Введите вашу любимую игру: ")
+    val fg = readln()
+    print("Введите ваше любимое время года: ")
+    val seas = readln()
+    val otziv = listOf("Хорош", "Ты крутой!", "Хорошая работа!", "Критунал")
+    println(na)
+    println(age)
+    println(fg)
+    println(seas)
+    val  r = (Math.random() * otziv.size).toInt()
+    val phrase = otziv[r]
+    print(phrase)
+
+
 
 
 }
